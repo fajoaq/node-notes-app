@@ -19,7 +19,7 @@ request({ url: weatherUrl, json: true }, (error, res) => {
 });
 
 
-const geocodingUrl = 'https://api.mapbox.com/geocoding/v5/mapbox.places/Los%20Angeles.json?access_token=pk.eyJ1IjoiZmFqb2FxIiwiYSI6ImNrbmNudXdieTF1NTQyb296cWVmbDJlbzIifQ.xcbVqKXvrUSWXs_USbb-2A&limit=1';
+const geocodingUrl = 'REDACTED'
 
 request({ url: geocodingUrl, json: true }, (error, res) => {
     if(error) {
