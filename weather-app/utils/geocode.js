@@ -13,7 +13,11 @@ const geocode = (address, callback) => {
             callback('No matching results. Try another location.', undefined)
         } else {
             const { center, place_name } = res.body.features[0];
-            callback(undefined, { center, place_name });
+            callback(undefined, { 
+                longitude: center[0], 
+                latitude: center[1], 
+                place_name 
+            });
         }
     });
 };
