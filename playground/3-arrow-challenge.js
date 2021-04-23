@@ -1,5 +1,5 @@
 //
-// Goal: Create method to get incomplete tasks
+// Goal:
 //
 // 1. Define getTasksToDo method
 // 2. Use filter to to return just the incompleted tasks (arrow function)
